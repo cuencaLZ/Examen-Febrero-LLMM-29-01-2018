@@ -1,0 +1,160 @@
+* {
+    background:url(img/bg.png);
+ }
+div.titulo{
+    margin-left: 3%;
+}
+
+div.titulo h1{
+    padding: 0;
+    margin: 0;
+    color: #2e3a38;
+    font-size: 200%;
+}
+div.titulo h2{
+    font-size: 100%;
+    padding: 0;
+    margin: 0;
+    color: #889598;
+    margin-left: 4%;
+}
+
+.MenuHorizontal{
+    padding: 0;
+    margin: 0;
+    float: right;
+    margin-bottom: 1%;
+}
+.MenuHorizontal ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.MenuHorizontal li {
+    float: left;
+}
+
+.MenuHorizontal li a {
+   
+    color:#7dadd2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.active {
+    color:#7a8c94;
+ }
+.MenuHorizontal li a:hover:not(.active) {
+    color:#7a8c94;
+}
+.PF{
+    height: 20%;
+    background-image:url("img-banner.png");
+}
+.PF h3 {
+    float: right;
+    left: 60%;
+    font-size: 200%;
+    font-weight:bold;
+    color:white;
+    background-color: black ;
+    margin-bottom: 0;
+}
+.PF h4{
+    float: right;
+    margin-top: 0;
+    left:65%;
+    color:white;
+    background-color: black;
+}
+main {
+    width: 60%;
+    text-align:justify;
+    margin: 1%;
+}
+img{
+    margin: 0,5%;
+    width: 100%; 
+    height: 20%;
+}
+footer {
+    margin-top: 15px;
+    margin-left: 15px;
+    padding: 15px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: rgb(61, 102, 126);
+}
+
+footer ul, aside ul{
+    margin: 0 auto;
+    overflow: auto;
+    list-style-type: none;	
+}
+
+footer li {
+    float: left;
+    overflow: auto;
+    margin: 0 5%;
+} 
+
+footer a, aside a {
+    display: block;
+    padding: 4px;
+    text-decoration: none;
+    font-size: 15px;
+    color: white;	
+}
+
+footer a:hover, aside a:hover {
+    color: rgb(20, 26, 29);
+    background-color: white;
+    border-radius: 15px;
+}
+.BarraLateral{
+    float:right;
+    position: absolute;
+    left:73%;
+    top:47%;
+    width:25%;
+    margin-left:2%;
+    border-radius:1em black;
+    
+}
+
+#ulLateral{
+    list-style: none;
+
+}
+.BarraLateral h3{
+    margin-left:2em;
+}
+
+#ulLateral li {
+    padding:0.5em;
+    margin:0.5em;
+    border-style:solid;
+    border-width: 0.01em;
+    border-color:white;
+    border-radius:1em;
+
+}
+
+#ulLateral li a{
+
+    text-decoration-line:none;
+    color: white;
+    
+
+}
+
+#ulLateral li:hover{
+    background-color: white;
+    
+}
+#ulLateral li:hover a{
+
+color:rgb(90, 129, 173);
